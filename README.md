@@ -1,2 +1,3 @@
 # OptiWin
-Windows'u optimize et, hızlandır ve özgürlüğünü geri al! OptiWin - Gaming, Office, Standard ve Custom modlarıyla  tüm kullanıcılar için Windows optimizasyon aracı.
+
+OptiWin, Windows 10 ve 11 için optimizasyon aracı olarak geliştirilmiştir. Oyun, ofis, standart ve özel modlar ile kullanıcılar için en iyi performansı sağlamayı hedeflemektedir.
