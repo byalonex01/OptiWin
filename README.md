@@ -1,4 +1,5 @@
-🚀 OptiWin Pro: Next-Generation Windows Optimizer
+🚀 OptiWin Pro:
+Next-Generation Windows Optimizer
 OptiWin Pro is a high-performance, modern, and deep system optimization tool developed by ByAlonexTM. It bridges the gap between complex power-user tools like SophiApp and WinUtil by providing a clean, animated, and user-friendly experience.
 
 ✨ Key Features
