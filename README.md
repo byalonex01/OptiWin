@@ -1,51 +1,56 @@
-# OptiWin Documentation
+🚀 OptiWin Pro: Next-Generation Windows Optimizer
+OptiWin Pro is a high-performance, modern, and deep system optimization tool developed by ByAlonexTM. It bridges the gap between complex power-user tools like SophiApp and WinUtil by providing a clean, animated, and user-friendly experience.
 
-## Download Instructions
-1. Visit the [OptiWin Releases](https://github.com/byalonex01/OptiWin/releases) page.
-2. Download the latest version available for Windows.
-3. Follow the installation instructions in the downloaded package.
+✨ Key Features
+100+ Advanced Tweaks: Deep registry and service optimizations for maximum system efficiency.
 
-## Features List
-- System Optimization
-- Performance Monitoring
-- Uninstall Unused Applications
-- Manage Startup Programs
-- Disk Cleanup
+Smart Profiles: One-click setups for Gaming (Max FPS), Work/Office, and Essential usage.
 
-## System Requirements
-- Windows 10 or later
-- Minimum 4GB RAM
-- At least 500MB of disk space
+Modern UI/UX: Built with a smooth "Waterfall" animation and high-fidelity "Soft" & "Dark" themes.
 
-## Developer Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/byalonex01/OptiWin.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd OptiWin
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Safety First: Optional automatic System Restore Point creation before any changes.
 
-## PyInstaller Usage Guide
-To create an executable using PyInstaller:
-1. Install PyInstaller if not already installed:
-   ```bash
-   pip install pyinstaller
-   ```
-2. Run the following command:
-   ```bash
-   pyinstaller --onefile main.py
-   ```
-3. Find the executable in the `dist` directory.
+Deep Clean Engine: Removes Windows Update residue, temp files, and system junk.
 
-## Warnings
-- Ensure to backup your data before running optimization tools.
-- Use at your own risk.
+Developer Tools: Toggle WSL, Sandbox, and Hyper-V with a single click.
 
-## License Information
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+🛠 Technical Specifications
+Language: Python 3.13+
+
+Hardware Detection: Automatically detects and displays your CPU, GPU, and RAM for tailored tweaks.
+
+Multi-Language: Full support for English and Turkish with dynamic switching.
+
+📥 Installation
+1. Portable Version (Recommended)
+Go to the Releases page.
+
+Download the latest OptiWin.exe.
+
+Run as Administrator and enjoy the performance boost!
+
+2. For Developers
+   
+   # Clone the repository
+git clone https://github.com/byalonex01/OptiWin.git
+
+# Install dependencies
+pip install customtkinter psutil darkdetect packaging
+
+# Run the app
+python main.py
+
+
+
+
+📦 Building from Source
+To create your own standalone executable:
+
+pip install pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --add-data "lang_pack.py;." --add-data "ui_engine.py;." --add-data "core_optimizer.py;." --collect-all customtkinter --name "OptiWin" main.py
+
+
+⚠️ Disclaimer
+This tool modifies deep system settings. While safety features are included, please create a restore point in the settings menu before use. Use at your own risk.
+
+Developed with precision by ByAlonexTM
